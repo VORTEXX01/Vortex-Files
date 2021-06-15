@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../scss/custom.scss">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="de8deb403ee3957b33ea533bbc89709d">
+    <link rel="preconnect" href="123043f581504df373d69b895d13e293">
+    <link href="787f4358674a2138dcce1c36b565a80f" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -53,7 +53,7 @@
       <div class="row mt-5">
         <div class="col-sm">
           <div class="card">
-            <img src="../assets/building1.ddf65f44.jpg" class="card-img-top" alt="Large building">
+            <img src="3ebe4875040076a380ccad2cdab0b948" class="card-img-top" alt="Large building">
             <div class="card-body p-4 rounded-bottom ">
               <h5 class="card-title fw-bold">Card Title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-sm">
           <div class="card">
-            <img src="../assets/building2.67c5fb0d.jpg" class="card-img-top" alt="Large building">
+            <img src="048594dd24626260df2f6d6c98be1d06" class="card-img-top" alt="Large building">
             <div class="card-body p-4 rounded-bottom">
               <h5 class="card-title fw-bold">Card Title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -71,7 +71,7 @@
         </div>
         <div class="col-sm">
           <div class="card">
-            <img src="../assets/building3.fda5fb6f.jpg" class="card-img-top" alt="Large building">
+            <img src="f42ae2b0da57a5bd5ae9ec136270f0ac" class="card-img-top" alt="Large building">
             <div class="card-body p-4 rounded-bottom">
               <h5 class="card-title fw-bold">Card Title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,12 +90,12 @@
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="col-12 col-md-2">
-          <button type="submit" class="btn btn-primary" style="margin-top: 2em; width:100%">Submit</button>
+          <button type="submit" class="btn btn-primary" style="dc4d52fd958c22a23200fe3d7c542d09">Submit</button>
         </div>
       </div>
     </div>
     
 
-    <script src="./index.js"></script>
+    <script src="e7b5ff0c3e32451012cab9f1d6067a93"></script>
   </body>
 </html>

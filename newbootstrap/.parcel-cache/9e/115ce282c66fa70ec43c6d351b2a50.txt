@@ -7,7 +7,7 @@
 139C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\core-js\internals\not-a-regexp.js121436361000000000 0
 118C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\loader-utils132681079427771040 1
 196C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\htmlnano\node_modules\postcss-normalize-url\node_modules\postcss-value-parser\lib\index.js121436361000000000 0
-107C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\src\index.html132681843230181890 0
+107C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\src\index.html132681939118589902 0
 120C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\lodash\size.js121436361000000000 0
 130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\terser\dist\package.json121436361000000000 0
 155C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\es-abstract\2018\OrdinaryCreateFromConstructor.js121436361000000000 0
@@ -27,7 +27,7 @@
 155C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\uncss\node_modules\postcss-selector-parser\API.md121436361000000000 0
 128C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\react-refresh\babel.js121436361000000000 0
 147C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\is-arguments\.github\workflows\rebase.yml121436361000000000 0
-98C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build132681932923968023 1
+98C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build132681940145589350 1
 211C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\htmlnano\node_modules\postcss-minify-selectors\node_modules\postcss-selector-parser\dist\selectors\tag.js121436361000000000 0
 151C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\jsdom\lib\jsdom\living\nodes\SVGTests-impl.js121436361000000000 0
 136C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\es-abstract\2018\DateString.js121436361000000000 0
@@ -67,7 +67,7 @@
 97C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\scss132680214965557847 1
 120C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\events\LICENSE121436361000000000 0
 141C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\es-abstract\2019\thisNumberValue.js121436361000000000 0
-130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\building3.fda5fb6f.fda5fb6f.jpg132681932159981207 0
+130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\building3.fda5fb6f.fda5fb6f.jpg132681939524368008 0
 149C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\serve-handler\node_modules\mime-db\index.js131466269770000000 0
 124C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\console-browserify132681079630952262 1
 128C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\lodash\fp\snakeCase.js121436361000000000 0
@@ -2953,7 +2953,7 @@
 141C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\runtime-js\src\loaders\node132681078233128690 1
 115C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\word-wrap132681079300994377 1
 130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\regjsgen\LICENSE-MIT.txt121436361000000000 0
-120C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.8143ac48.js.map132681932923868269 0
+120C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.8143ac48.js.map132681940145487851 0
 153C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\htmlnano\node_modules\postcss-reduce-transforms132681079549422229 1
 129C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\optionator\package.json132681079294400011 0
 125C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\postcss\lib\list.js121436361000000000 0
@@ -14691,7 +14691,7 @@
 125C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\cross-spawn\LICENSE132681078150020932 0
 128C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\array-equal\.npmignore130432365190000000 0
 129C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\des.js\test\cbc-test.js121436361000000000 0
-121C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.2e3c86e6.css.map132681932923938083 0
+121C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.2e3c86e6.css.map132681940145569328 0
 129C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\des.js\test\des-test.js121436361000000000 0
 129C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\des.js\test\ede-test.js121436361000000000 0
 141C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\scope-hoisting\src\index.js121436361000000000 0
@@ -17603,7 +17603,7 @@
 128C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\aws-sign2\package.json132681079635384914 0
 150C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@babel\core\node_modules\semver\CHANGELOG.md121436361000000000 0
 142C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\available-typed-arrays\.eslintignore121436361000000000 0
-116C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.8143ac48.js132681932923349660 0
+116C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.8143ac48.js132681940144619320 0
 138C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\available-typed-arrays\.eslintrc121436361000000000 0
 203C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\postcss-normalize-url\node_modules\postcss\docs\guidelines132681078941922421 1
 137C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\available-typed-arrays\index.js121436361000000000 0
@@ -18602,7 +18602,7 @@
 188C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\stylehacks\node_modules\postcss\lib\list.js121436361000000000 0
 197C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\stylehacks\node_modules\postcss\lib\map-generator.js121436361000000000 0
 188C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\stylehacks\node_modules\postcss\lib\node.js121436361000000000 0
-117C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.2e3c86e6.css132681932923349660 0
+117C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.2e3c86e6.css132681940144748593 0
 193C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\stylehacks\node_modules\postcss\lib\postcss.d.ts121436361000000000 0
 196C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\stylehacks\node_modules\postcss\lib\previous-map.js121436361000000000 0
 193C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\node_modules\@parcel\optimizer-cssnano\node_modules\stylehacks\node_modules\postcss\lib\processor.js121436361000000000 0
@@ -21104,9 +21104,9 @@
 115C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\dist\index.3fafb3e2.js132681843234148680 0
 120C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\dist\index.a1a18a86.css.map132681843234487777 0
 117C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\dist\src.e31bb0bc.js.map132680804771641243 0
-129C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\abstract.91fe92b5.91fe92b5.jpg132681932160170711 0
-130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\building1.ddf65f44.ddf65f44.jpg132681932160190662 0
-130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\building2.67c5fb0d.67c5fb0d.jpg132681932160160837 0
-109C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.html132681932923140258 0
+129C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\abstract.91fe92b5.91fe92b5.jpg132681939525167004 0
+130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\building1.ddf65f44.ddf65f44.jpg132681939523911627 0
+130C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\building2.67c5fb0d.67c5fb0d.jpg132681939523580104 0
+109C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\build\index.html132681940144058419 0
 121C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\assets\abstract.91fe92b5.jpg132671395615732217 0
 122C:\Users\ghaam\OneDrive\Documents\MeusProjetos\Vortex\Vortex-Files\Vortex-Files\newbootstrap\assets\building1.ddf65f44.jpg132671395615722240 0
