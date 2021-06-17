@@ -1,0 +1,7 @@
+require('bootstrap');
+let nabtn = $('.nav-item');
+let bannerSection = $('about-area');
+let scrolTo = '';
+$(navBtn).click(function () {
+  let btnId = $(this).at;
+});

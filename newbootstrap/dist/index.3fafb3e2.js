@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"5Qkg5":[function(require,module,exports) {
+})({"3Imd1":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 64026;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "0fa2489aa94c8731ee2aee9f3fafb3e2";
@@ -443,6 +443,18 @@ id) /*: string*/
 
 },{}],"5rkFb":[function(require,module,exports) {
 require('bootstrap');
+let nabtn = $('.nav-item');
+let aboutSection = $('#about-area');
+let scrollTo = '';
+$(navBtn).click(function () {
+  let btnId = $(this).attr('id');
+  if (btnId == 'about-menu') {
+    scrollTo = aboutSection;
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(scrollTo).offset().top - 70
+    }, 1500);
+  }
+});
 
 },{"bootstrap":"2wmtg"}],"2wmtg":[function(require,module,exports) {
 var define;
@@ -6017,6 +6029,6 @@ exports.popperGenerator = popperGenerator;
 exports.popperOffsets = popperOffsets$1;
 exports.preventOverflow = preventOverflow$1;
 
-},{}]},["5Qkg5","5rkFb"], "5rkFb", "parcelRequire29a8")
+},{}]},["3Imd1","5rkFb"], "5rkFb", "parcelRequire29a8")
 
 //# sourceMappingURL=index.3fafb3e2.js.map

@@ -1,0 +1,11 @@
+require('bootstrap');
+let nabtn = $('.nav-link');
+let aboutSection = $('#about-area');
+let scrolTo = '';
+$(navBtn).click(function () {
+  let btnId = $(this).attr('id');
+  console.log(btnId);
+  if (btnId = 'about-menu') {
+    scrolTo = aboutSection;
+  }
+});

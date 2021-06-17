@@ -1,0 +1,4 @@
+require('bootstrap');
+let nabtn = $('.nav-item');
+let bannerSection = $('about-area');
+let;
