@@ -1,3 +1,0 @@
-require('bootstrap');
-let nabtn = $('.nav-item');
-let banner;

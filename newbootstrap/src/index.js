@@ -1,20 +1,9 @@
 import * as bootstrap from 'bootstrap';
+const logo = document.querySelectorAll('#logo path');
 
-let nabtn = $('.nav-item');
+for (let i = 0; i<logo.length; i++){
+    console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+}
 
-let aboutSection = $('#about-area');
 
-let scrollTo = '';
-
-$(navBtn).click(function(){
-
-    let btnId = $(this).attr('id');
-    if(btnId == 'about-menu'){
-        scrollTo = aboutSection;
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $(scrollTo).offset().top -70
-        }, 1500);
-    }
-    
-})
 

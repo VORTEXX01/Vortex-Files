@@ -443,18 +443,10 @@ id) /*: string*/
 
 },{}],"5rkFb":[function(require,module,exports) {
 require('bootstrap');
-let nabtn = $('.nav-item');
-let aboutSection = $('#about-area');
-let scrollTo = '';
-$(navBtn).click(function () {
-  let btnId = $(this).attr('id');
-  if (btnId == 'about-menu') {
-    scrollTo = aboutSection;
-    $([document.documentElement, document.body]).animate({
-      scrollTop: $(scrollTo).offset().top - 70
-    }, 1500);
-  }
-});
+const logo = document.querySelectorAll('#logo path');
+for (let i = 0; i < logo.length; i++) {
+  console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+}
 
 },{"bootstrap":"2wmtg"}],"2wmtg":[function(require,module,exports) {
 var define;
