@@ -10187,15 +10187,12 @@ textarea.form-control-lg {
 }
 #elem {
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 2%;
+  left: 6.5%;
 }
 #elem:hover + #elem-hover #logo {
   opacity: 1;
   transition: 1s;
-}
-#elem:hover + #elem-hover #logo #gab {
-  opacity: 0;
 }
 #elem:hover + #elem-hover #logo path:nth-child(1) {
   stroke-dasharray: 441;
@@ -10236,4 +10233,8 @@ textarea.form-control-lg {
   top: 9%;
   left: 5%;
 }
-/*# sourceMappingURL=index.a1a18a86.css.map */
+#elem:hover + #elem-teste {
+  opacity: 0;
+  transition: 1s;
+}
+/*# sourceMappingURL=index.1889d2b3.css.map */

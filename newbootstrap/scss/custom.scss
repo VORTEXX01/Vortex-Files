@@ -1,6 +1,7 @@
 $body-bg: rgb(37, 37, 37);
 $body-color: white;
-$primary: cadetblue;
+$primary: rgb(255, 255, 255);
+$secondary: rgb(54, 68, 68);
 $font-family-sans-serif: 'Poppins', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -19,8 +20,8 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 }
 
 .custombg{
-    background: black url('../assets/abstract.91fe92b5.jpg');
-    background-size: cover;
+    background: rgb(61, 43, 43) url('../assets/abstract.91fe92b5.jpg');
+    background-size:cover;
     background-attachment: fixed;
 }
 .card{
@@ -32,3 +33,187 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 .card-body p{
     color: #c2c2c2;
 }
+
+.hu{
+   border-right : 2px solid hidden rgba(255, 255, 255, .75);
+   white-space: nowrap;
+   overflow: hidden; 
+   margin: 0 auto;
+}
+.typing-animation{
+    animation: bLinkCursor 500ms infinite normal, typing 5s infinite steps(60) 5s normal;
+}
+@keyframes bLinkCursor{
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color:transparent;
+    }
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.hub{
+    display: inline-block;
+}
+
+.binary{
+    background: url('../assets/binary-hero.png') no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-attachment: fixed;
+}
+::-webkit-scrollbar{
+    width: 9px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, cadetblue);
+    border-radius: 6px;
+}
+.img-fluid{
+    border:3px solid cadetblue;
+}
+.fig{
+    perspective: 1500px;
+    img{
+        transform: rotate(0);
+        border-radius: 6px;
+        transition: .3s;
+    }
+    &:hover img {
+        transform: rotatex(30deg) rotatey(-18deg) rotatez(6deg);
+    }
+}
+.fig{
+    perspective: 1500px;
+    iframe{
+        transform: rotate(0);
+        box-shadow: 2px 10px 30px hsla(0, 0%, 0%, 0.25);
+        border-radius: 6px;
+        transition: .3s;
+        width: 600px;
+        height: 300px;
+    }
+    &:hover iframe,#logo {
+        transform: rotatex(30deg) rotatey(-18deg) rotatez(6deg);
+    }
+}
+.just{
+    text-align: justify;
+    text-indent: 50px; 
+    align-items: center;  
+}
+.testeanim{
+    position: relative;
+    font-size: 40px;
+    color: rgb(37, 37, 37);
+    -webkit-text-stroke: 1px cadetblue;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.testeanim::before{
+    content: attr(data-text);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 0;
+    height:100%;
+    color: #ffffff;
+    -webkit-text-stroke: 0vw rgb(37, 37, 37);
+    border-right: 2px solid #ffffff;
+    overflow: hidden;
+    animation: animate 5s infinite 5s ;
+}
+
+@keyframes animate 
+{
+    0%,30%,60%,100%
+    {
+        width: 0%;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+#logo{
+   position: absolute;
+   top: 6%;
+    left: 8%;
+   animation: fill 0.5s ease forwards 4s;
+   opacity: 0;
+}
+
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+    to{
+       
+    }
+}
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#elem{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#elem:hover+ #elem-hover #logo{ 
+    opacity: 1;
+    transition: 1s;
+    #gab{
+        opacity: 0;
+    }
+    path:nth-child(1){
+        stroke-dasharray: 441;
+        stroke-dashoffset: 441; 
+        animation: line-anim 2s ease forwards 1;
+    }
+    path:nth-child(2){
+        stroke-dasharray: 565;
+        stroke-dashoffset: 565;
+        animation: line-anim 2s ease forwards 1;
+    }
+    path:nth-child(3){
+        stroke-dasharray: 549;
+        stroke-dashoffset: 549;
+        animation: line-anim 2s ease forwards 1;
+    }
+    path:nth-child(4){
+        stroke-dasharray: 336;
+        stroke-dashoffset: 336;
+        animation: line-anim 2s ease forwards 1;
+    }
+    path:nth-child(5){
+        stroke-dasharray: 463;
+        stroke-dashoffset: 463;
+        animation: line-anim 2s ease forwards 1;
+    }
+    path:nth-child(6){
+        stroke-dasharray: 477;
+        stroke-dashoffset: 477;
+        animation: line-anim 2s ease forwards 1;
+    }
+}
+#elem:hover{
+    transform: rotate(100deg);
+    transition: 1s;
+}
+#elem-teste{
+    position: absolute;
+    top: 9%;
+    left: 5%;
+}
+
