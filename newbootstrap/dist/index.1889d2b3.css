@@ -10170,15 +10170,9 @@ textarea.form-control-lg {
 }
 #logo {
   position: absolute;
-  top: 6%;
-  left: 8%;
-  animation: fill 0.5s ease forwards 4s;
-  opacity: 0;
-}
-@keyframes fill {
-  from {
-    fill: transparent;
-  }
+  top: 4%;
+  left: 12%;
+  opacity: 1;
 }
 @keyframes line-anim {
   to {
@@ -10187,12 +10181,15 @@ textarea.form-control-lg {
 }
 #elem {
   position: absolute;
-  top: 2%;
-  left: 6.5%;
+  top: 4%;
+  left: 9%;
 }
 #elem:hover + #elem-hover #logo {
   opacity: 1;
   transition: 1s;
+}
+#elem:hover + #elem-hover #logo #gab {
+  opacity: 0;
 }
 #elem:hover + #elem-hover #logo path:nth-child(1) {
   stroke-dasharray: 441;
@@ -10228,13 +10225,91 @@ textarea.form-control-lg {
   transform: rotate(100deg);
   transition: 1s;
 }
-#elem-teste {
-  position: absolute;
-  top: 9%;
-  left: 5%;
+#carouselBanner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
-#elem:hover + #elem-teste {
-  opacity: 0;
-  transition: 1s;
+.carousel-inner {
+  width: 80%;
+  margin: 0 auto;
+}
+footer {
+  position: relative;
+  height: auto;
+  padding: 50px 100px;
+  background: #364444;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .container .sec {
+  margin-right: 30px;
+}
+footer .container .sec.abouts {
+  width: 40%;
+}
+footer .container h2, footer .container .h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container h2:before, footer .container .h2:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: cadetblue;
+}
+footer p {
+  color: #999;
+}
+.sci {
+  margin-top: 20px;
+  display: flex;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.sci li a:hover {
+  background: cadetblue;
+}
+.sci li a .fa {
+  color: blue;
+  font-size: 20px;
+}
+.quickLinks {
+  position: relative;
+  width: 25%;
+}
+.quickLinks ul li {
+  list-style: none;
+}
+.quickLinks ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 /*# sourceMappingURL=index.1889d2b3.css.map */
