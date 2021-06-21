@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="72005a056154f1a22d9faae03468df4b">
+    <link rel="preconnect" href="d7c2b8c89e8843c0697300fa104dd24b">
+    <link href="61387814f243afe6c358cff4ad465a74" rel="stylesheet">
+    <script defer="" src="331208fe04de616bf2125868c8a6174a"></script>
+  </head>
+  <body>
+    <!-- NavBar com Logo e SVG do Vortex-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark mt-4">
+            <div class="container-fluid">
+              <div id="elem"><img src="86ba0f2ca6437ed19ae7f33b4df9f266" height="60px"></div>
+                <div id="elem-hover">
+                  <img id="logo" class="container" src="c1d34f3d4389693e6a03ed0efac51009">
+    </div>
+        <a class="navbar-brand fw-bold text-primary" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="c37687ad1f15bf92eb0fc899119e0a33">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" id="about-menu" href="#about-area">Etec ZL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#arduino-area">Conheça o Arduíno</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#carouselBanner">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="#footer1">Sobre</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>    
+    </div>
+    
+    <!--Janela de boas-vindas-->
+    <div class="container-fluid custombg mt-3 pt-0">
+        <div class="container-fluid mt-4 pt-5 binary">
+        <div class="container pt-5 pb-3">
+            <h2 class="fw-bold rellax hub" data-rellax-speed="10">Programar +</h2>
+            <h2 class="fw-bold rellax hub" data-rellax-speed="2">Construir +</h2>
+            <h2 class="fw-bold rellax hub" data-rellax-speed="4">Divertir-se =</h2>
+            <h2 class="fw-bold rellax hub" data-rellax-speed="6">Evolução</h2>
+            <p class="subhead fs-4 mb-5 text-white-50 hu typing-animation rellax" data-rellax-speed="8">Site de robótica da Etec Zona Leste &nbsp;</p>
+         </div> 
+        </div> 
+    </div>
+
+    <!--Cards informativos-->
+    <div class="container pt-3">
+      <div class="row mt-5">
+        <div class="col-sm">
+          <div class="card rellax" data-rellax-speed="4">
+            <img src="f0cb4445049aa3f48f8c1fae72d98329" class="card-img-top" alt="Large building">
+            <div class="card-body p-4 rounded-bottom ">
+              <h5 class="card-title fw-bold">O que é robótica?</h5>
+              <p class="card-text">Robótica é um ramo educacional e tecnológico que trata de sistemas compostos por partes mecânicas automáticas em conjunto com circuitos integrados, tornando sistemas mecânicos motorizados controlados por circuitos elétricos e inteligência computacional</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card rellax" data-rellax-speed="2">
+            <img src="b4558b695b7cecda2b81c86210c7d5b3" class="card-img-top" alt="Large building">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Você sabia?</h5>
+              <p class="card-text">O computador da IBM especialmente projetado para jogar xadrez venceu o maior jogador de todos os tempos em 1996: Garry Kasparov. O acontecimento foi um marco histórico para o mundo da robótica e foi retratado em filmes como The Man vs. The Machine e Game Over: Kasparov and The Machine).</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card rellax" data-rellax-speed="0">
+            <img src="d74a9a02320e218f35d6346997fa04b6" class="card-img-top" alt="Large building">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Sustabilidade e Robótica</h5>
+              <p class="card-text">A Robótica Sustentável é uma pratica de ensino que trabalha a construção de robôs, carros entres outros projetos, em ambientes de aprendizagem utilizando materiais recicláveis ou não, sempre em favor do uso comunitário de forma positiva, educativa e que gera impactos sociais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section Canal no Youtube-->
+      <div id="about-area">
+        <div class="container bg-secondary mt-4 mb-3">
+          <div class="row">
+            <div class="col-12">
+            </div>
+            <div class="col-md-6 fig p-5">
+              <iframe class="img-fluid" width="560" height="315" src="0e437fbfc6788275486bb31070536cf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-md-6 p-5">
+              <h3 class="about-title fw-bold">Etec Zona Leste</h3>
+              <p class="just">O Centro Tecnológico da Zona Leste – SP criado pelo Decreto Estadual n° 46.524, de 01 de fevereiro de 2002, fica extinto por determinação do Governador do Estado de São Paulo, José Serra, a partir do Decreto n° 54.659, de 10 de agosto de 2009. O Centro Tecnológico da Zona Leste, ao ser extinto por ato legal do governador do Estado de São Paulo, gera as unidades independentes de ensino, a Faculdade de Tecnologia – Fatec da Zona Leste e a Escola Técnica Estadual – Etec da Zona Leste – São Paulo. </p>
+              <a href="16513a47cee43f9459454124a2de97f8"><button type="button" class="btn btn-outline-primary">Canal YouTube</button></a>
+            </div>
+          </div>
+        </div>
+        
+      <!-- Section conheça o arduíno -->
+      <div id="arduino-area">
+        <div class="container mt-4 mb-3">
+          <div class="row">
+            <div class="col-12">
+            </div>
+            <div class="col-md-6 p-5">
+              <h3 data-text="Conhece o Arduíno?" class="text-title testeanim align-middle">Conhece o Arduíno?</h3>
+              <p class="just">A lista de possibilidades é praticamente infinita. Você pode automatizar sua casa, seu carro, seu escritório, criar um novo brinquedo, um novo equipamento ou melhorar um já existente. Tudo vai depender da sua criatividade.</p>
+              <a href="9585b295f06a9c9e1350381083659409"><button type="button" class="btn btn-outline-primary">Conheça o arduíno</button></a>
+            </div>
+            <div class="col-md-6 fig p-5 ">
+              <img src="e00e794f6229adeb6582f12728574919">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section com slider -->      
+      <div class="container mb-5">
+      <div id="carouselBanner" class="bg-dark carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="15000">
+            <img src="82b97c6ff769892f5491dad7a7634975" class="d-inline w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="15000">
+            <img src="2d31532434b10d7e9ebef88081348bce" class="d-inline w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="15000">
+            <img src="dc84bb3d3b22b1710d9ecfb20eff59ef" class="d-inline w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <script src="839232fae21159d6020a69ff8da46450" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script data-parcel-key="2ab9a469715aec660be7bb0fd47e1534">
+      var rellax = new Rellax('.rellax');
+    </script>
+    <script src="9f3f0397a3729cfef951edc494372e0c"></script>
+  
+  </div></div></body>
+
+  <!--Section com footer-->
+  <footer>
+    <div class="container" id="footer1">
+      <div class="sec abouts">
+        <h2 class="text-title fw-bold">Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium amet, quos ut iusto id expedita nemo, eveniet quod similique aspernatur, tenetur deleniti at molestias! Reprehenderit beatae soluta harum provident!</p>
+        <ul class="sci">
+          <li><a href="fafe8431191edcd172660507cc9c14fd"><i><img src="586f65ea66c144c2f2a7f85478538bcf" width="30px"></i></a></li>
+          <li><a href="a2b9a961f6f5734160ec3ec1ea8f04bc"><i><img src="cd9a14c11372f2154a0edc6b818807d9" width="30px"></i></a></li>
+          <li><a href="a3e4e568d603774ea7322aa363ce6115"><i><img src="4fc82102b63c26e2427f09a2332e5a8b" width="30px"></i></a></li>
+          <li><a href="16513a47cee43f9459454124a2de97f8"><i><img src="a612800f5a7284a32c2f59c1fabcd8b7" width="30px"></i></a></li>
+        </ul>
+      </div>
+      <div class="sec quickLinks">
+        <h2 class="text-title fw-bold">Quick Links</h2>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Terms & Consitions</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sec contact">
+        <h2 class="text-title fw-bold">Contato</h2>
+        <ul class="info">
+          <li>
+            <span><i><img src="cd13a5931950ec2af9ad7ac7cc248bfd" width="30px"></i></span><br>
+            <span>Av. Águia de Haia, 2633 -<br> Cidade Antônio Estêvão de <br>Carvalho, São Paulo - SP, 03694-000</span>
+          </li>
+          <li>
+            <span><i><img src="cad13b2f71bee0b566650f047fa7ac07" width="30px"></i></span>
+            <p><a href="tel:1120454000">(11) 2045-4000</a><br></p>
+          </li>
+          <li>
+            <span><i><img src="86ac9160384d9a5fec6a603203f80bb6" width="30px"></i></span>
+            <p><a href="441bdd56aabb8d763e29fd1fb4112ca6">e211acad@cps.sp.gov.br</a></p>
+          </li>
+        </ul>
+        <a href="e195cb0832eb086b3c68fc3facad7458"><img class="logosp" src="ebe30a921370413b3ed97f0dcbea583b" alt="Governo e CPS"></a>
+      </div>
+    </div>
+  </footer>
+  <div class="copyrightText">
+    <p>Copyright © 2021 Vortex. All Rights Reserved.</p>
+  </div>
+</html>

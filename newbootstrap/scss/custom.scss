@@ -2,10 +2,13 @@ $body-bg: rgb(37, 37, 37);
 $body-color: white;
 $primary: rgb(255, 255, 255);
 $secondary: rgb(54, 68, 68);
+$danger: cadetblue;
 $font-family-sans-serif: 'Poppins', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
+.dropdown-item:hover{
+    background-color: rgb(54, 68, 68);;
+}
 .navbar-collapse {
     justify-content: flex-end;
 }
@@ -206,6 +209,96 @@ $font-family-sans-serif: 'Poppins', sans-serif;
     width: 80%;
     margin: 0 auto;
 }
+// Arduino //
+.arduino {
+    background: rgb(36, 35, 35) url(../assets/arduino001.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 255px;
+    border: 3px solid;
+    border-color: cadetblue;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(37,37,37);
+    color: white;
+    transform: rotateY(180deg);
+    font-size: 13pt;
+  }
+
+.mapa{
+    perspective: 1500px;
+    img{
+        transform: rotate(0);
+        border-radius: 6px;
+        transition: .3s; 
+        margin: center;      
+    }
+    &:hover img {
+        transform: rotatex(25deg) rotatey(-10deg) rotatez(6deg);
+    }
+}
+
+.container, ol{
+    font-size: 20pt;
+}
+
+.container, p{
+    font-size: 13pt;
+}
+
+.display-1 {
+    text-align: center;
+    font-size: 35pt;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.colun h3{
+    text-align: center;
+    font-size: 15pt;
+}
+
 //construção do footer
 footer{
     position:relative;

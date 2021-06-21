@@ -24,7 +24,7 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-danger: cadetblue;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-font-sans-serif: "Poppins", sans-serif;
@@ -1901,15 +1901,15 @@ progress {
   border-color: #e6dbb9;
 }
 .table-danger {
-  --bs-table-bg: #f8d7da;
-  --bs-table-striped-bg: #eccccf;
+  --bs-table-bg: #dfecec;
+  --bs-table-striped-bg: #d4e0e0;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfc2c4;
+  --bs-table-active-bg: #c9d4d4;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5c7ca;
+  --bs-table-hover-bg: #cedada;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #dfc2c4;
+  border-color: #c9d4d4;
 }
 .table-light {
   --bs-table-bg: #f8f9fa;
@@ -2583,7 +2583,7 @@ textarea.form-control-lg {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #dc3545;
+  color: cadetblue;
 }
 .invalid-tooltip {
   position: absolute;
@@ -2594,8 +2594,8 @@ textarea.form-control-lg {
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
   font-size: 0.875rem;
-  color: #fff;
-  background-color: rgba(220, 53, 69, 0.9);
+  color: #000;
+  background-color: rgba(95, 158, 160, 0.9);
   border-radius: 0.25rem;
 }
 .was-validated :invalid ~ .invalid-feedback,
@@ -2605,45 +2605,45 @@ textarea.form-control-lg {
   display: block;
 }
 .was-validated .form-control:invalid, .form-control.is-invalid {
-  border-color: #dc3545;
+  border-color: cadetblue;
   padding-right: calc(1.5em + 0.75rem);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='cadetblue'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='cadetblue' stroke='none'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right calc(0.375em + 0.1875rem) center;
   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
-  border-color: #dc3545;
-  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  border-color: cadetblue;
+  box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.25);
 }
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
   padding-right: calc(1.5em + 0.75rem);
   background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
 .was-validated .form-select:invalid, .form-select.is-invalid {
-  border-color: #dc3545;
+  border-color: cadetblue;
 }
 .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"] {
   padding-right: 4.125rem;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='cadetblue'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='cadetblue' stroke='none'/%3e%3c/svg%3e");
   background-position: right 0.75rem center, center right 2.25rem;
   background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
-  border-color: #dc3545;
-  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  border-color: cadetblue;
+  box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.25);
 }
 .was-validated .form-check-input:invalid, .form-check-input.is-invalid {
-  border-color: #dc3545;
+  border-color: cadetblue;
 }
 .was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
-  background-color: #dc3545;
+  background-color: cadetblue;
 }
 .was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
-  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.25);
 }
 .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
-  color: #dc3545;
+  color: cadetblue;
 }
 .form-check-inline .form-check-input ~ .invalid-feedback {
   margin-left: 0.5em;
@@ -2837,33 +2837,33 @@ textarea.form-control-lg {
   border-color: #ffc107;
 }
 .btn-danger {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  color: #000;
+  background-color: cadetblue;
+  border-color: cadetblue;
 }
 .btn-danger:hover {
-  color: #fff;
-  background-color: #bb2d3b;
-  border-color: #b02a37;
+  color: #000;
+  background-color: #77adae;
+  border-color: #6fa8aa;
 }
 .btn-check:focus + .btn-danger, .btn-danger:focus {
-  color: #fff;
-  background-color: #bb2d3b;
-  border-color: #b02a37;
-  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+  color: #000;
+  background-color: #77adae;
+  border-color: #6fa8aa;
+  box-shadow: 0 0 0 0.25rem rgba(81, 134, 136, 0.5);
 }
 .btn-check:checked + .btn-danger, .btn-check:active + .btn-danger, .btn-danger:active, .btn-danger.active, .show > .btn-danger.dropdown-toggle {
-  color: #fff;
-  background-color: #b02a37;
-  border-color: #a52834;
+  color: #000;
+  background-color: #7fb1b3;
+  border-color: #6fa8aa;
 }
 .btn-check:checked + .btn-danger:focus, .btn-check:active + .btn-danger:focus, .btn-danger:active:focus, .btn-danger.active:focus, .show > .btn-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(81, 134, 136, 0.5);
 }
 .btn-danger:disabled, .btn-danger.disabled {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  color: #000;
+  background-color: cadetblue;
+  border-color: cadetblue;
 }
 .btn-light {
   color: #000;
@@ -3044,27 +3044,27 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 .btn-outline-danger {
-  color: #dc3545;
-  border-color: #dc3545;
+  color: cadetblue;
+  border-color: cadetblue;
 }
 .btn-outline-danger:hover {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  color: #000;
+  background-color: cadetblue;
+  border-color: cadetblue;
 }
 .btn-check:focus + .btn-outline-danger, .btn-outline-danger:focus {
-  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.5);
 }
 .btn-check:checked + .btn-outline-danger, .btn-check:active + .btn-outline-danger, .btn-outline-danger:active, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  color: #000;
+  background-color: cadetblue;
+  border-color: cadetblue;
 }
 .btn-check:checked + .btn-outline-danger:focus, .btn-check:active + .btn-outline-danger:focus, .btn-outline-danger:active:focus, .btn-outline-danger.active:focus, .btn-outline-danger.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.5);
 }
 .btn-outline-danger:disabled, .btn-outline-danger.disabled {
-  color: #dc3545;
+  color: cadetblue;
   background-color: transparent;
 }
 .btn-outline-light {
@@ -4375,12 +4375,12 @@ textarea.form-control-lg {
   color: #523e02;
 }
 .alert-danger {
-  color: #842029;
-  background-color: #f8d7da;
-  border-color: #f5c2c7;
+  color: #395f60;
+  background-color: #dfecec;
+  border-color: #cfe2e3;
 }
 .alert-danger .alert-link {
-  color: #6a1a21;
+  color: #2e4c4d;
 }
 .alert-light {
   color: #636464;
@@ -4721,17 +4721,17 @@ textarea.form-control-lg {
   border-color: #664d03;
 }
 .list-group-item-danger {
-  color: #842029;
-  background-color: #f8d7da;
+  color: #395f60;
+  background-color: #dfecec;
 }
 .list-group-item-danger.list-group-item-action:hover, .list-group-item-danger.list-group-item-action:focus {
-  color: #842029;
-  background-color: #dfc2c4;
+  color: #395f60;
+  background-color: #c9d4d4;
 }
 .list-group-item-danger.list-group-item-action.active {
   color: #fff;
-  background-color: #842029;
-  border-color: #842029;
+  background-color: #395f60;
+  border-color: #395f60;
 }
 .list-group-item-light {
   color: #636464;
@@ -5665,10 +5665,10 @@ textarea.form-control-lg {
   color: #ffcd39;
 }
 .link-danger {
-  color: #dc3545;
+  color: cadetblue;
 }
 .link-danger:hover, .link-danger:focus {
-  color: #b02a37;
+  color: #7fb1b3;
 }
 .link-light {
   color: #f8f9fa;
@@ -5977,7 +5977,7 @@ textarea.form-control-lg {
   border-color: #ffc107 !important;
 }
 .border-danger {
-  border-color: #dc3545 !important;
+  border-color: cadetblue !important;
 }
 .border-light {
   border-color: #f8f9fa !important;
@@ -6606,7 +6606,7 @@ textarea.form-control-lg {
   color: #ffc107 !important;
 }
 .text-danger {
-  color: #dc3545 !important;
+  color: cadetblue !important;
 }
 .text-light {
   color: #f8f9fa !important;
@@ -6648,7 +6648,7 @@ textarea.form-control-lg {
   background-color: #ffc107 !important;
 }
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: cadetblue !important;
 }
 .bg-light {
   background-color: #f8f9fa !important;
@@ -10039,6 +10039,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.dropdown-item:hover {
+  background-color: #364444;
+}
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -10229,6 +10232,84 @@ textarea.form-control-lg {
 .carousel-inner {
   width: 80%;
   margin: 0 auto;
+}
+.arduino {
+  background: #242323 url(arduino001.1c8235e4.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 255px;
+  border: 3px solid;
+  border-color: cadetblue;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+/* Style the back side */
+.flip-card-back {
+  background-color: #252525;
+  color: white;
+  transform: rotateY(180deg);
+  font-size: 13pt;
+}
+.mapa {
+  perspective: 1500px;
+}
+.mapa img {
+  transform: rotate(0);
+  border-radius: 6px;
+  transition: 0.3s;
+  margin: center;
+}
+.mapa:hover img {
+  transform: rotatex(25deg) rotatey(-10deg) rotatez(6deg);
+}
+.container, ol {
+  font-size: 20pt;
+}
+.container, p {
+  font-size: 13pt;
+}
+.display-1 {
+  text-align: center;
+  font-size: 35pt;
+}
+.titulo {
+  text-align: center;
+}
+.colun h3, .colun .h3 {
+  text-align: center;
+  font-size: 15pt;
 }
 footer {
   position: relative;

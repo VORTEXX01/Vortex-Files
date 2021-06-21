@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conheça o arduíno</title>
+    <link rel="stylesheet" href="11ec530d23bafc13e18209393ab3da61">
+    <link rel="preconnect" href="66935a8287ecf55450fb877da3af03bf">
+    <link href="0211a739c330d049494865f93db6106c" rel="stylesheet">
+    <script defer="" src="c4487aeff4a0b598805053a23a937802"></script>
+    
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark mt-4">
+        <div class="container-fluid">
+          <div id="elem"><img src="3022b668c53ae1f51c2fce2f386ae075" height="60px"></div>
+            <div id="elem-hover">
+              <svg id="logo" class="container" width="250" height="30" viewbox="0 0 530 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M91.032 1.63198L53.16 102H38.04L0.167999 1.63198H14.136L45.672 88.176L77.208 1.63198H91.032Z" stroke="cadetblue" stroke-width="5"></path>
+                <path d="M150.904 103.008C141.592 103.008 133.097 100.848 125.417 96.528C117.737 92.112 111.641 86.016 107.129 78.24C102.713 70.368 100.505 61.536 100.505 51.744C100.505 41.952 102.713 33.168 107.129 25.392C111.641 17.52 117.737 11.424 125.417 7.10398C133.097 2.68798 141.592 0.47998 150.904 0.47998C160.312 0.47998 168.856 2.68798 176.536 7.10398C184.216 11.424 190.265 17.472 194.681 25.248C199.097 33.024 201.305 41.856 201.305 51.744C201.305 61.632 199.097 70.464 194.681 78.24C190.265 86.016 184.216 92.112 176.536 96.528C168.856 100.848 160.312 103.008 150.904 103.008ZM150.904 91.632C157.912 91.632 164.201 90 169.769 86.736C175.433 83.472 179.849 78.816 183.017 72.768C186.281 66.72 187.913 59.712 187.913 51.744C187.913 43.68 186.281 36.672 183.017 30.72C179.849 24.672 175.481 20.016 169.913 16.752C164.345 13.488 158.008 11.856 150.904 11.856C143.8 11.856 137.464 13.488 131.896 16.752C126.328 20.016 121.912 24.672 118.648 30.72C115.48 36.672 113.896 43.68 113.896 51.744C113.896 59.712 115.48 66.72 118.648 72.768C121.912 78.816 126.328 83.472 131.896 86.736C137.561 90 143.896 91.632 150.904 91.632Z" stroke="cadetblue" stroke-width="5"></path>
+                <path d="M271.452 102L247.548 60.96H231.708V102H218.604V1.63198H251.004C258.588 1.63198 264.972 2.92798 270.156 5.51998C275.436 8.11198 279.372 11.616 281.964 16.032C284.556 20.448 285.852 25.488 285.852 31.152C285.852 38.064 283.836 44.16 279.804 49.44C275.868 54.72 269.916 58.224 261.948 59.952L287.148 102H271.452ZM231.708 50.448H251.004C258.108 50.448 263.436 48.72 266.988 45.264C270.54 41.712 272.316 37.008 272.316 31.152C272.316 25.2 270.54 20.592 266.988 17.328C263.532 14.064 258.204 12.432 251.004 12.432H231.708V50.448Z" stroke="cadetblue" stroke-width="5"></path>
+                <path d="M367.989 1.63198V12.288H340.629V102H327.525V12.288H300.021V1.63198H367.989Z" stroke="cadetblue" stroke-width="5"></path>
+                <path d="M397.223 12.288V45.84H433.799V56.64H397.223V91.2H438.119V102H384.119V1.48798H438.119V12.288H397.223Z" stroke="cadetblue" stroke-width="5"></path>
+               <path d="M498.987 51.888L529.803 102H514.971L490.923 62.832L468.027 102H453.483L484.155 51.888L453.339 1.63198H468.027L492.219 40.944L515.259 1.63198H529.947L498.987 51.888Z" stroke="cadetblue" stroke-width="5"></path>
+      </svg>
+  </div>
+  
+          <a class="navbar-brand fw-bold text-primary" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="006477de2a9425197f44f7ce0376dbe4">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#footer">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Conheça o Arduíno
+                </a>
+                <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-primary " href="#about-area1">Arduino</a></li>
+                  <li><a class="dropdown-item text-primary " href="#about-area2">Tipos de Arduino</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
+</div>
+    <div class="container-fluid arduino mt-3 pt-0">
+        <div class=" container-fluid mt-4 pt-5"></div>
+        <div class="container pt-5 pb-3">
+            <h2 class="fw-bold">Aprenda mais sobre seus componentes e tipos!</h2>
+            <p class="subhead fs-4 mb-5 text-white-100 hu typing-animation rellax" data-rellax-speed="8">Sua introdução para o mundo da robótica!&nbsp;</p>
+         </div> 
+        </div> 
+    
+                               <!--O que é arduíno?-->   
+              <div id="about-area">
+                <div class="container mt-4 mb-3">
+                  <div class="row">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-20 p-5">
+                      <h1 class="about-title fw-bold mb-4 display-1">O que é arduino?</h1>
+                      <p class="just">Falando em termos práticos, as placas Arduino possuem funcionamento semelhante ao de um pequeno computador, no qual, pode-se programar a maneira como suas entradas e saídas devem se comportar em meio aos diversos componentes externos que podem ser conectados nas mesmas</p>
+                      <p>Arduino é uma plataforma open-source de prototipagem eletrônica com hardware e software flexíveis e fáceis de usar, destinado a artistas, designers, hobbistas e qualquer pessoa interessada em criar objetos ou ambientes interativos.</p>
+                      <p>Ou seja, O Arduino é uma plataforma formada por dois componentes: A placa, que é o Hardware que usaremos para construir nossos projetos e a IDE Arduino, que é o Software onde escrevemos o que queremos que a placa faça.</p>
+                      <p>A maior vantagem dessa plataforma de desenvolvimento sobre as demais é a sua facilidade de sua utilização, pois, pessoas que não são da área técnica podem aprender o básico e criar seus próprios projetos em um intervalo de tempo relativamente curto.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                                <!-- MAPA ARDUÍNO -->
+        <div id="about-area1">
+            <div class="container mt-4 mb-3">
+                <div class="row">
+                <div class="col-12">
+                </div>
+                <div class="col-md-8 mapa p-5">
+                  <picture>
+                    <source media="(max-width: 800px)" srcset="ae3df90f99b07547b98eeacaf91bd31d" type="image/png">
+                    <source media="(max-width: 1050px)" srcset="24fde2577f76a40aa3890da3f9975cea" type="image/png">
+                    <img src="3bf8bb4b61e8d03133f6ce5a47bcb97f" alt="Imagem flexível">
+                </picture>
+                </div>
+                </div>
+            </div>
+            </div>
+                                    <!--COMPONENTES ARDUÍNO-->
+                <div class="container">
+                <ol type="1">
+                    <li class="fw-bold">Microcontrolador</li>
+                    <p>Esse é o cérebro do Arduino. Um computador inteiro dentro de um pequeno chip. Este é o dispositivo programável que roda o código que enviamos à placa.</p>
+                    <p>Existem várias opções de marcas e modelos de microcontroladores, nessas placas foram adotados os microcontroladores da Microchip, que inicialmente eram produzidos pela Atmel,  mas especificamente a linha ATmega. O modelo UNO, por exemplo,  usa o microcontrolador ATmega328.
+                    </p>
+                    <li class="fw-bold">Conector ICSP</li>
+                    <p>A sigla ICSP se refere a capacidade de transferir programas para um componente enquanto ele está instalado em um sistema, por meio de protocolos seriais.</p>
+                    <p>No caso dos Arduinos, o ICSP se refere à capacidade de programar diretamente os microcontroladores da placa.</p>
+                    <li class="fw-bold">Led Power</li>
+                    <p>Indica se a placa está energizada.</p>
+                    <li class="fw-bold">Pinos de entrada e saída</li>
+                    <p>Pinos que podem ser programados para agirem como entradas ou saídas fazendo com que o Arduino interaja com o meio externo. O UNO R3 possui 14 portas digitais (I/O), 6 pinos de entrada analógica e 6 saídas analógicas (PWM).</p>
+                    <li class="fw-bold">Reset</li>
+                    <p>É o botão que reinicia a placa.</p>
+                    <li class="fw-bold">Conector USB</li>
+                    <p>Conecta a placa ao computador. É por onde o computador e o Arduino se comunicam com o auxílio de um cabo USB, além de ser uma opção de alimentação da placa.</p>
+                    <li class="fw-bold">Chip para comunicação</li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore odio voluptatibus fugit ab molestiae sunt quis nesciunt sit, ipsam blanditiis dolores iure molestias voluptates consequatur aspernatur nulla totam. Eius!</p>
+                    <li class="fw-bold">Led TX+RX</li>
+                    <p>Para que o computador e o microcontrolador conversem, é necessário que exista um chip que traduza as informações vindas de um para o outro. Os LEDs TX e RX acendem quando o Arduino está transmitindo e recebendo dados pela porta serial respectivamente.</p>
+                    <li class="fw-bold">Regulador de tensão</li>
+                    <p>O regulador de tensão é um circuito que recebe uma tensão de corrente contínua na entrada e transforma esta em uma tensão menor e estabilizada na saída, possibilitando a linearidade automática de tensão em determinados circuitos e a capacidade de reduzir a tensão de seu pino de entrada para uma menor em seu pino de saída.</p>
+                    <li class="fw-bold">Conector de alimentação</li>
+                    <p>Responsável por receber a energia de alimentação externa, que pode ter uma tensão de no mínimo 7 Volts e no máximo 20 Volts e uma corrente mínima de 300mA. Recomendamos 9V, com um pino redondo de 2,1mm e centro positivo. Caso a placa também esteja sendo alimentada pelo cabo USB, ele dará preferência à fonte externa automaticamente.</p>
+                    <li class="fw-bold">Pinos de alimentação</li>
+                    <p>Responsável por receber a energia de alimentação externa, que pode ter uma tensão de no mínimo 7 Volts e no máximo 20 Volts e uma corrente mínima de 300mA. Recomendamos 9V, com um pino redondo de 2,1mm e centro positivo. Caso a placa também esteja sendo alimentada pelo cabo USB, ele dará preferência à fonte externa automaticamente.</p>
+                </ol>    
+                </div>
+            <!-- CARDS -->               
+<div class="container" id="about-area2">
+    <h2 class="titulo mt-5 mb-4 fw-bold">Tipos de arduino</h2>
+    <div class="row row-cols-auto">
+
+      <div class="colun col mt-3"><h3>Pro Mini</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="1fc96487c7d4a59ee46767511ba5a759" alt="pro mini" style="d202073a198325ec064473a25b793aa4">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É destinado a usuários avançados que exigem flexibilidade, baixo custo e pequeno tamanho. Ele vem com o mínimo de componentes para manter o custo baixo. Certamente é uma boa escolha para quem quer deixá-lo embutido em um projeto.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Fio</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="a59dce6273fd3953b10ab8b6c7a6307f" alt="modelo fio" style="543318f098b49b56b50679c5d5d00a1f">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É destinado para aplicações wireless (sem fio).  Ele tem conexões para uma bateria de polímero de lítio, inclui um circuito de recarga USB e um conector para módulo XBee está disponível na parte inferior da placa.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+      <div class="colun col mt-3"><h3>Arduino Nano</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="93fe0e69a54eef132bdd12795e4e23e6" alt="modelo-nano" style="ff66301ce5fab49c57a9de98eca569be">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Nano é ideal para projetos compactos. Facilmente notamos que esse modelo tem o seu tamanho reduzido quando comparado aos demais.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="colun col mt-3"><h3>Arduino Micro</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="dadd461d74204996b251390304254363" alt="modelo micro" style="20c7a3482f6c3d3e1b3f8104a27e92ff">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">Têm a comunicação USB direta com o microcontrolador, portanto  não é necessário um processador secundário. Quando conectado ao computador, o Arduino Micro é identificado como se um mouse ou um teclado.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="colun col mt-3"><h3>Arduino uno</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="ff6965307b7afca6a9079510eabe133d" alt="Modelo Uno" style="85465b4fcabeafeb0d04798d73309428">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É o mais conhecido e o mais indicado para quem está começando agora pois possui uma boa capacidade de processamento, uma simples utilização com seus periféricos e uma linguagem de programação que se assemelha com C++.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="colun col mt-3"><h3>Arduino Leonardo</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="155e0fe8023ec198495b5e90d4cae00d" alt="modelo leonardo" style="9d1ae0c07cac8e3f6e20b8a621f2c373">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2"> Possui maior capacidade de processamento e pode ser usado em projetos maiores, porém não é indicado para quem está começando, pois tem uma comunicação serial diferente das demais, sendo necessário conhecer sua linguagem de programação própria</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Mega</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="a3493d4f40c8f0f4acb6f6f49b562c7c" alt="modelo mega" style="f686bef1e51a0fd6e4a4194a4cc8d809">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É conhecido pelo seu grande tamanho e por sua quantidade de pinos de entrada e saída. É indicado para projetos grandes por conta da sua  uma excelente capacidade de memória, além disso é muito indicado para novos usuários. A única desvantagem dele é o preço.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Lilypad</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="ca58ee7e11311aa02b0abe434f7e7e4e" alt="modelo lilypad" style="faa976d5bc5f02c09de7354be8f5b848">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">A família de placas LilyPad Arduino, existe quatro modelos, foi projetada para aplicações vestíveis. Funciona com baterias recarregáveis ​​e permite fácil conexão com sensores e atuadores desenvolvidos para uma fácil integração em roupas e tecidos.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Duo</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="087545e115870047ca346befc98663c7" alt="modelo duo" style="cfa77343d7d14b46671d2d23642218d1">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Duo é conhecido por ter super poderes. Ele é do mesmo tamanho e possui e mesma quantidade de portadas do Arduino Mega, mas o que o torna especial é o seu incrível processador ARM de 32 bits.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Yun</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="6e4c55e5c24e6f48db72923e882ceeb7" alt="modelo yun" style="8c21b7d5ad96d66fc2ab2226ab4ae7f6">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Yun (Yun significa nuvem em chinês) é basicamente o Arduino Leronado com sistema poderoso wireless rodando Linux Wifi. É ideal para projetos que precisam se conectar e interagir com servidores da web ou redes.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Esplora</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="5fc739e114fc32d9f1a7f76d8718d535" alt="modelo esplora" style="8b698ea552e2055f2a39b4c5226e141d">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Esplora parece um controlador de videogame e você pode utilizá-lo para controlar o computador como se fosse um mouse ou um teclado. Ele se diferente das outras placas por possuir entradas e saídas já conectadas à placa e por conta disso é diferente programá-lo.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Robot</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="03028d0b0ab9af28b8680e3c6e15d52c" alt="modelo robot" style="b367420eb63099425346d8e358536191">
+              </div>
+              <div class="flip-card-back">
+                <p>O modelo Robot vem completo, possui dois processadores (um em cada placa) que não precisam de processadores secundários pois ambos os têm comunicação USB. Junto a ele já vem incluso diversas peças e muitos dos seus pinos são mapeados para sensores e controladores de motores.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="colun col mt-3"><h3>Arduino Ethernet</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="ae1ff0a82fd496e47a6061023b050c9b" alt="modelo ethernet" style="127ab5464e92f5f72a096b9279102b36">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Ethernet  tem embutido em sua placa um network Ethernet, os pinos 10, 11, 12 e 13 são reservados exclusivamente para a interface com o módulo Ethernet  além disso, possui conexão Rj45 para conectar o cabo  diretamente à placa.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="colun col mt-3"><h3>Arduino Pro</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="2731c4793b2424832d0017bd78aa732c" alt="modelo pro" style="522664be5a6fa74dc34cc2df0444af14">
+              </div>
+              <div class="flip-card-back">
+                <p>O modelo Pro é destinado para instalação semi-permanente, por esse motivo a placa vem sem conectores pré-montado, permitindo o uso de vários tipos de conectores ou mesmo a ligação de fios diretamente na placa ainda assim a  pinagem é compatível com os shields Arduino.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+
+  <br><br><br>
+  <footer>
+    <div class="container" id="footer">
+      <div class="sec abouts">
+        <h2 class="text-title fw-bold">Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium amet, quos ut iusto id expedita nemo, eveniet quod similique aspernatur, tenetur deleniti at molestias! Reprehenderit beatae soluta harum provident!</p>
+        <ul class="sci">
+          <li><a href="313a30140b4118ef3a2ccca72cc045e4"><i><img src="65f40c0b6e4e127eed5aa83734722a6f" width="30px"></i></a></li>
+          <li><a href="cab5fa61e0f794c42f2c233a2805415a"><i><img src="0c0fb546be3dfeb2feeb87261b091b33" width="30px"></i></a></li>
+          <li><a href="e43df257e90253a9d1b88a19f4be5890"><i><img src="8e5180c5f1480a5f8200f1c158049e33" width="30px"></i></a></li>
+          <li><a href="4f40ab9a70b185c3bc985e1eda5401b9"><i><img src="2122b1e0331b3bef0701f2dd92bd710e" width="30px"></i></a></li>
+        </ul>
+      </div>
+    
+      <div class="sec quickLinks">
+        <h2 class="text-title fw-bold">Quick Links</h2>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Terms & Consitions</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sec contact">
+        <h2 class="text-title fw-bold">Contato</h2>
+        <ul class="info">
+          <li>
+            <span><i><img src="1bf398c35dfa043d99c3f86b395737e2" width="30px"></i></span><br>
+            <span>Av. Águia de Haia, 2633 -<br> Cidade Antônio Estêvão de <br>Carvalho, São Paulo - SP, 03694-000</span>
+          </li>
+          <li>
+            <span><i><img src="e991136a263f9effc1cddfe04a23ee14" width="30px"></i></span>
+            <p><a href="tel:1120454000">(11) 2045-4000</a><br></p>
+          </li>
+          <li>
+            <span><i><img src="3e030b2cacafab86f3a513362eb5fa07" width="30px"></i></span>
+            <p><a href="2ab5957f436f4b96c64f38db5156e27c">e211acad@cps.sp.gov.br</a></p>
+          </li>
+        </ul>
+          <a href="96d7ce44780b4e5b657040d3d3257bfc"><img class="logosp" src="bea8a6622609068c9af52d808de5b059" alt="Governo e CPS"></a>
+      </div>
+    </div>
+  </footer>
+  <div class="copyrightText">
+    <p>Copyright © 2021 Vortex. All Rights Reserved.</p>
+  </div> 
+  
+  <script src="cd9ad612eaced75ce74e033ce1a65c2c" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script data-parcel-key="c55a1e4a9a76afbec20b5bd9ceaf734d">
+    var rellax = new Rellax('.rellax');
+  </script>
+    <script src="99fc06eb8604a55a3936972a8c80b5f3"></script>
+</body>
+</html>
