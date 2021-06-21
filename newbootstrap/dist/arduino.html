@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conheça o arduíno</title>
+    <link rel="stylesheet" href="/index.a1a18a86.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark mt-4">
+          <div id="elem"><img src="/LogoMakr-2BsZcq.f896a917.png" height="60px"></div>
+          <div id="elem-hover">
+            <svg id="logo" width="250" height="30" viewbox="0 0 530 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M91.032 1.63198L53.16 102H38.04L0.167999 1.63198H14.136L45.672 88.176L77.208 1.63198H91.032Z" stroke="cadetblue" stroke-width="5"></path>
+            <path d="M150.904 103.008C141.592 103.008 133.097 100.848 125.417 96.528C117.737 92.112 111.641 86.016 107.129 78.24C102.713 70.368 100.505 61.536 100.505 51.744C100.505 41.952 102.713 33.168 107.129 25.392C111.641 17.52 117.737 11.424 125.417 7.10398C133.097 2.68798 141.592 0.47998 150.904 0.47998C160.312 0.47998 168.856 2.68798 176.536 7.10398C184.216 11.424 190.265 17.472 194.681 25.248C199.097 33.024 201.305 41.856 201.305 51.744C201.305 61.632 199.097 70.464 194.681 78.24C190.265 86.016 184.216 92.112 176.536 96.528C168.856 100.848 160.312 103.008 150.904 103.008ZM150.904 91.632C157.912 91.632 164.201 90 169.769 86.736C175.433 83.472 179.849 78.816 183.017 72.768C186.281 66.72 187.913 59.712 187.913 51.744C187.913 43.68 186.281 36.672 183.017 30.72C179.849 24.672 175.481 20.016 169.913 16.752C164.345 13.488 158.008 11.856 150.904 11.856C143.8 11.856 137.464 13.488 131.896 16.752C126.328 20.016 121.912 24.672 118.648 30.72C115.48 36.672 113.896 43.68 113.896 51.744C113.896 59.712 115.48 66.72 118.648 72.768C121.912 78.816 126.328 83.472 131.896 86.736C137.561 90 143.896 91.632 150.904 91.632Z" stroke="cadetblue" stroke-width="5"></path>
+            <path d="M271.452 102L247.548 60.96H231.708V102H218.604V1.63198H251.004C258.588 1.63198 264.972 2.92798 270.156 5.51998C275.436 8.11198 279.372 11.616 281.964 16.032C284.556 20.448 285.852 25.488 285.852 31.152C285.852 38.064 283.836 44.16 279.804 49.44C275.868 54.72 269.916 58.224 261.948 59.952L287.148 102H271.452ZM231.708 50.448H251.004C258.108 50.448 263.436 48.72 266.988 45.264C270.54 41.712 272.316 37.008 272.316 31.152C272.316 25.2 270.54 20.592 266.988 17.328C263.532 14.064 258.204 12.432 251.004 12.432H231.708V50.448Z" stroke="cadetblue" stroke-width="5"></path>
+            <path d="M367.989 1.63198V12.288H340.629V102H327.525V12.288H300.021V1.63198H367.989Z" stroke="cadetblue" stroke-width="5"></path>
+            <path d="M397.223 12.288V45.84H433.799V56.64H397.223V91.2H438.119V102H384.119V1.48798H438.119V12.288H397.223Z" stroke="cadetblue" stroke-width="5"></path>
+            <path d="M498.987 51.888L529.803 102H514.971L490.923 62.832L468.027 102H453.483L484.155 51.888L453.339 1.63198H468.027L492.219 40.944L515.259 1.63198H529.947L498.987 51.888Z" stroke="cadetblue" stroke-width="5"></path>
+            </svg>
+          </div>
+
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold text-primary" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" id="about-menu" href="/index.html">Sobre</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Conheça o arduino
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-primary" href="#about-area1">Arduino</a></li>
+                      <li><a class="dropdown-item text-primary" href="#about-area2">Tipos de Arduino</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>    
+    </div>
+
+    <div class="container-fluid arduino mt-3 pt-0">
+        <div class=" container-fluid mt-4 pt-5"></div>
+        <div class="container pt-5 pb-3">
+            <h2 class="fw-bold">Aprenda mais sobre seus componentes e tipos!</h2>
+            <p class="subhead fs-4 mb-5 text-white-50 hu typing-animation rellax" data-rellax-speed="8">Sua introdução para o mundo da robótica!&nbsp;</p>
+         </div> 
+        </div> 
+    
+                               <!--O que é arduíno?-->   
+              <div id="about-area">
+                <div class="container mt-4 mb-3">
+                  <div class="row">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-20 p-5">
+                      <h1 class="about-title fw-bold mb-4 display-1">O que é arduino?</h1>
+                      <p class="just">Falando em termos práticos, as placas Arduino possuem funcionamento semelhante ao de um pequeno computador, no qual, pode-se programar a maneira como suas entradas e saídas devem se comportar em meio aos diversos componentes externos que podem ser conectados nas mesmas</p>
+                      <p>Arduino é uma plataforma open-source de prototipagem eletrônica com hardware e software flexíveis e fáceis de usar, destinado a artistas, designers, hobbistas e qualquer pessoa interessada em criar objetos ou ambientes interativos.</p>
+                      <p>Ou seja, O Arduino é uma plataforma formada por dois componentes: A placa, que é o Hardware que usaremos para construir nossos projetos e a IDE Arduino, que é o Software onde escrevemos o que queremos que a placa faça.</p>
+                      <p>A maior vantagem dessa plataforma de desenvolvimento sobre as demais é a sua facilidade de sua utilização, pois, pessoas que não são da área técnica podem aprender o básico e criar seus próprios projetos em um intervalo de tempo relativamente curto.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                                <!-- MAPA ARDUÍNO -->
+        <div id="about-area1">
+            <div class="container mt-4 mb-3">
+                <div class="row">
+                <div class="col-12">
+                </div>
+                <div class="col-md-8 mapa p-5">
+                  <picture>
+                    <source media="(max-width: 800px)" srcset="/mapaarduinoP.cfba1569.png" type="image/png">
+                    <source media="(max-width: 1050px)" srcset="/mapaarduinoM.6e4b48b0.png" type="image/png">
+                    <img src="/mapaarduino.541861ee.png" alt="Imagem flexível">
+                </picture>
+                </div>
+                </div>
+            </div>
+            </div>
+                                    <!--COMPONENTES ARDUÍNO-->
+                <div class="container">
+                <ol type="1">
+                    <li class="fw-bold">Microcontrolador</li>
+                    <p>Esse é o cérebro do Arduino. Um computador inteiro dentro de um pequeno chip. Este é o dispositivo programável que roda o código que enviamos à placa.</p>
+                    <p>Existem várias opções de marcas e modelos de microcontroladores, nessas placas foram adotados os microcontroladores da Microchip, que inicialmente eram produzidos pela Atmel,  mas especificamente a linha ATmega. O modelo UNO, por exemplo,  usa o microcontrolador ATmega328.
+                    </p>
+                    <li class="fw-bold">Conector ICSP</li>
+                    <p>A sigla ICSP se refere a capacidade de transferir programas para um componente enquanto ele está instalado em um sistema, por meio de protocolos seriais.</p>
+                    <p>No caso dos Arduinos, o ICSP se refere à capacidade de programar diretamente os microcontroladores da placa.</p>
+                    <li class="fw-bold">Led Power</li>
+                    <p>Indica se a placa está energizada.</p>
+                    <li class="fw-bold">Pinos de entrada e saída</li>
+                    <p>Pinos que podem ser programados para agirem como entradas ou saídas fazendo com que o Arduino interaja com o meio externo. O UNO R3 possui 14 portas digitais (I/O), 6 pinos de entrada analógica e 6 saídas analógicas (PWM).</p>
+                    <li class="fw-bold">Reset</li>
+                    <p>É o botão que reinicia a placa.</p>
+                    <li class="fw-bold">Conector USB</li>
+                    <p>Conecta a placa ao computador. É por onde o computador e o Arduino se comunicam com o auxílio de um cabo USB, além de ser uma opção de alimentação da placa.</p>
+                    <li class="fw-bold">Chip para comunicação</li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore odio voluptatibus fugit ab molestiae sunt quis nesciunt sit, ipsam blanditiis dolores iure molestias voluptates consequatur aspernatur nulla totam. Eius!</p>
+                    <li class="fw-bold">Led TX+RX</li>
+                    <p>Para que o computador e o microcontrolador conversem, é necessário que exista um chip que traduza as informações vindas de um para o outro. Os LEDs TX e RX acendem quando o Arduino está transmitindo e recebendo dados pela porta serial respectivamente.</p>
+                    <li class="fw-bold">Regulador de tensão</li>
+                    <p>O regulador de tensão é um circuito que recebe uma tensão de corrente contínua na entrada e transforma esta em uma tensão menor e estabilizada na saída, possibilitando a linearidade automática de tensão em determinados circuitos e a capacidade de reduzir a tensão de seu pino de entrada para uma menor em seu pino de saída.</p>
+                    <li class="fw-bold">Conector de alimentação</li>
+                    <p>Responsável por receber a energia de alimentação externa, que pode ter uma tensão de no mínimo 7 Volts e no máximo 20 Volts e uma corrente mínima de 300mA. Recomendamos 9V, com um pino redondo de 2,1mm e centro positivo. Caso a placa também esteja sendo alimentada pelo cabo USB, ele dará preferência à fonte externa automaticamente.</p>
+                    <li class="fw-bold">Pinos de alimentação</li>
+                    <p>Responsável por receber a energia de alimentação externa, que pode ter uma tensão de no mínimo 7 Volts e no máximo 20 Volts e uma corrente mínima de 300mA. Recomendamos 9V, com um pino redondo de 2,1mm e centro positivo. Caso a placa também esteja sendo alimentada pelo cabo USB, ele dará preferência à fonte externa automaticamente.</p>
+                </ol>    
+                </div>
+            <!-- CARDS -->               
+<div class="container" id="about-area2">
+    <h2 class="titulo mt-5 mb-4 fw-bold">Tipos de arduino</h2>
+    <div class="row row-cols-auto">
+
+      <div class="col mt-3"><h3>Pro Mini</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/promini.dd428eb1.jpg" alt="pro mini" style="width: 300px;height: 250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É destinado a usuários avançados que exigem flexibilidade, baixo custo e pequeno tamanho. Ele vem com o mínimo de componentes para manter o custo baixo. Certamente é uma boa escolha para quem quer deixá-lo embutido em um projeto.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Fio</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/arduino-FIO.493eb85b.jpg" alt="modelo fio" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É destinado para aplicações wireless (sem fio).  Ele tem conexões para uma bateria de polímero de lítio, inclui um circuito de recarga USB e um conector para módulo XBee está disponível na parte inferior da placa.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+      <div class="col mt-3"><h3>Arduino Nano</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/arduino-nano.3c645d9d.jpg" alt="modelo-nano" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Nano é ideal para projetos compactos. Facilmente notamos que esse modelo tem o seu tamanho reduzido quando comparado aos demais.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col mt-3"><h3>Arduino Micro</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/micro.c8c3acd9.jpg" alt="modelo micro" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">Têm a comunicação USB direta com o microcontrolador, portanto  não é necessário um processador secundário. Quando conectado ao computador, o Arduino Micro é identificado como se um mouse ou um teclado.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col mt-3"><h3>Arduino uno</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/uno.d083fc32.jpg" alt="Modelo Uno" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É o mais conhecido e o mais indicado para quem está começando agora pois possui uma boa capacidade de processamento, uma simples utilização com seus periféricos e uma linguagem de programação que se assemelha com C++.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col mt-3"><h3>Arduino Leonardo</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/leonardo.64cd1668.jpg" alt="modelo leonardo" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2"> possui maior capacidade de processamento e pode ser usado em projetos maiores, porém não é indicado para quem está começando, pois tem uma comunicação serial diferente das demais, sendo necessário conhecer sua linguagem de programação própria</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Mega</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/mega.3a35b222.jpg" alt="modelo mega" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">É conhecido pelo seu grande tamanho e por sua quantidade de pinos de entrada e saída. É indicado para projetos grandes por conta da sua  uma excelente capacidade de memória, além disso é muito indicado para novos usuários. A única desvantagem dele é o preço.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Lilypad</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/lilypad.6725b33f.jpg" alt="modelo lilypad" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">A família de placas LilyPad Arduino, existe quatro modelos, foi projetada para aplicações vestíveis. Funciona com baterias recarregáveis ​​e permite fácil conexão com sensores e atuadores desenvolvidos para uma fácil integração em roupas e tecidos.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Duo</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/duo.120749b1.jpg" alt="modelo duo" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Duo é conhecido por ter super poderes. Ele é do mesmo tamanho e possui e mesma quantidade de portadas do Arduino Mega, mas o que o torna especial é o seu incrível processador ARM de 32 bits.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Yun</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/yun.bc5c71bd.jpg" alt="modelo yun" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Yun (Yun significa nuvem em chinês) é basicamente o Arduino Leronado com sistema poderoso wireless rodando Linux Wifi. É ideal para projetos que precisam se conectar e interagir com servidores da web ou redes.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Esplora</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/esplora.8a0917bd.jpg" alt="modelo esplora" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Esplora parece um controlador de videogame e você pode utilizá-lo para controlar o computador como se fosse um mouse ou um teclado. Ele se diferente das outras placas por possuir entradas e saídas já conectadas à placa e por conta disso é diferente programá-lo.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Robot</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/robot.541612dc.jpg" alt="modelo robot" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p>O modelo Robot vem completo, possui dois processadores (um em cada placa) que não precisam de processadores secundários pois ambos os têm comunicação USB. Junto a ele já vem incluso diversas peças e muitos dos seus pinos são mapeados para sensores e controladores de motores.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Ethernet</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/ethernet.9e37a494.jpg" alt="modelo ethernet" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p class="pt-2">O modelo Ethernet  tem embutido em sua placa um network Ethernet, os pinos 10, 11, 12 e 13 são reservados exclusivamente para a interface com o módulo Ethernet  além disso, possui conexão Rj45 para conectar o cabo  diretamente à placa.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mt-3"><h3>Arduino Pro</h3>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/pro.891ec42b.jpg" alt="modelo pro" style="width:300px;height:250px;
+">
+              </div>
+              <div class="flip-card-back">
+                <p>O modelo Pro é destinado para instalação semi-permanente, por esse motivo a placa vem sem conectores pré-montado, permitindo o uso de vários tipos de conectores ou mesmo a ligação de fios diretamente na placa ainda assim a  pinagem é compatível com os shields Arduino.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+     
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>// modules are defined as an array
+// [ module function, map of requires ]
+//
+// map of requires is short require name -> numeric require
+//
+// anything defined in a previous bundle is accessed via the
+// orig method which is the require for previous bundles
+
+(function(modules, entry, mainEntry, parcelRequireName, globalName) {
+  /* eslint-disable no-undef */
+  var globalObject =
+    typeof globalThis !== 'undefined'
+      ? globalThis
+      : typeof self !== 'undefined'
+      ? self
+      : typeof window !== 'undefined'
+      ? window
+      : typeof global !== 'undefined'
+      ? global
+      : {};
+  /* eslint-enable no-undef */
+
+  // Save the require from previous bundle to this closure if any
+  var previousRequire =
+    typeof globalObject[parcelRequireName] === 'function' &&
+    globalObject[parcelRequireName];
+
+  var cache = previousRequire.cache || {};
+  // Do not use `require` to prevent Webpack from trying to bundle this call
+  var nodeRequire =
+    typeof module !== 'undefined' &&
+    typeof module.require === 'function' &&
+    module.require.bind(module);
+
+  function newRequire(name, jumped) {
+    if (!cache[name]) {
+      if (!modules[name]) {
+        // if we cannot find the module within our internal map or
+        // cache jump to the current global require ie. the last bundle
+        // that was added to the page.
+        var currentRequire =
+          typeof globalObject[parcelRequireName] === 'function' &&
+          globalObject[parcelRequireName];
+        if (!jumped && currentRequire) {
+          return currentRequire(name, true);
+        }
+
+        // If there are other bundles on this page the require from the
+        // previous one is saved to 'previousRequire'. Repeat this as
+        // many times as there are bundles until the module is found or
+        // we exhaust the require chain.
+        if (previousRequire) {
+          return previousRequire(name, true);
+        }
+
+        // Try the node require function if it exists.
+        if (nodeRequire && typeof name === 'string') {
+          return nodeRequire(name);
+        }
+
+        var err = new Error("Cannot find module '" + name + "'");
+        err.code = 'MODULE_NOT_FOUND';
+        throw err;
+      }
+
+      localRequire.resolve = resolve;
+      localRequire.cache = {};
+
+      var module = (cache[name] = new newRequire.Module(name));
+
+      modules[name][0].call(
+        module.exports,
+        localRequire,
+        module,
+        module.exports,
+        this
+      );
+    }
+
+    return cache[name].exports;
+
+    function localRequire(x) {
+      return newRequire(localRequire.resolve(x));
+    }
+
+    function resolve(x) {
+      return modules[name][1][x] || x;
+    }
+  }
+
+  function Module(moduleName) {
+    this.id = moduleName;
+    this.bundle = newRequire;
+    this.exports = {};
+  }
+
+  newRequire.isParcelRequire = true;
+  newRequire.Module = Module;
+  newRequire.modules = modules;
+  newRequire.cache = cache;
+  newRequire.parent = previousRequire;
+  newRequire.register = function(id, exports) {
+    modules[id] = [
+      function(require, module) {
+        module.exports = exports;
+      },
+      {},
+    ];
+  };
+
+  Object.defineProperty(newRequire, 'root', {
+    get: function() {
+      return globalObject[parcelRequireName];
+    },
+  });
+
+  globalObject[parcelRequireName] = newRequire;
+
+  for (var i = 0; i < entry.length; i++) {
+    newRequire(entry[i]);
+  }
+
+  if (mainEntry) {
+    // Expose entry point to Node, AMD or browser globals
+    // Based on https://github.com/ForbesLindesay/umd/blob/master/template.js
+    var mainExports = newRequire(mainEntry);
+
+    // CommonJS
+    if (typeof exports === 'object' && typeof module !== 'undefined') {
+      module.exports = mainExports;
+
+      // RequireJS
+    } else if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return mainExports;
+      });
+
+      // <script>
+    } else if (globalName) {
+      this[globalName] = mainExports;
+    }
+  }
+})({"5O4C6":[function(require,module,exports) {
+var HMR_HOST = null;
+var HMR_PORT = 1234;
+var HMR_SECURE = false;
+var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
+module.bundle.HMR_BUNDLE_ID = "532f4a214e1385a4c4e1dd9bd9cf9bfd";
+// @flow
+/*global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE*/
+/*::
+import type {
+HMRAsset,
+HMRMessage,
+} from '@parcel/reporter-dev-server/src/HMRServer.js';
+interface ParcelRequire {
+(string): mixed;
+cache: {|[string]: ParcelModule|};
+hotData: mixed;
+Module: any;
+parent: ?ParcelRequire;
+isParcelRequire: true;
+modules: {|[string]: [Function, {|[string]: string|}]|};
+HMR_BUNDLE_ID: string;
+root: ParcelRequire;
+}
+interface ParcelModule {
+hot: {|
+data: mixed,
+accept(cb: (Function) => void): void,
+dispose(cb: (mixed) => void): void,
+// accept(deps: Array<string> | string, cb: (Function) => void): void,
+// decline(): void,
+_acceptCallbacks: Array<(Function) => void>,
+_disposeCallbacks: Array<(mixed) => void>,
+|};
+}
+declare var module: {bundle: ParcelRequire, ...};
+declare var HMR_HOST: string;
+declare var HMR_PORT: string;
+declare var HMR_ENV_HASH: string;
+declare var HMR_SECURE: boolean;
+*/
+var OVERLAY_ID = '__parcel__error__overlay__';
+var OldModule = module.bundle.Module;
+function Module(moduleName) {
+  OldModule.call(this, moduleName);
+  this.hot = {
+    data: module.bundle.hotData,
+    _acceptCallbacks: [],
+    _disposeCallbacks: [],
+    accept: function (fn) {
+      this._acceptCallbacks.push(fn || (function () {}));
+    },
+    dispose: function (fn) {
+      this._disposeCallbacks.push(fn);
+    }
+  };
+  module.bundle.hotData = undefined;
+}
+module.bundle.Module = Module;
+var checkedAssets, /*: {|[string]: boolean|}*/
+acceptedAssets, /*: {|[string]: boolean|}*/
+/*: {|[string]: boolean|}*/
+assetsToAccept;
+function getHostname() {
+  return HMR_HOST || (location.protocol.indexOf('http') === 0 ? location.hostname : 'localhost');
+}
+function getPort() {
+  return HMR_PORT || location.port;
+}
+// eslint-disable-next-line no-redeclare
+var parent = module.bundle.parent;
+if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
+  var hostname = getHostname();
+  var port = getPort();
+  var protocol = HMR_SECURE || location.protocol == 'https:' && !(/localhost|127.0.0.1|0.0.0.0/).test(hostname) ? 'wss' : 'ws';
+  var ws = new WebSocket(protocol + '://' + hostname + (port ? ':' + port : '') + '/');
+  // $FlowFixMe
+  ws.onmessage = function (event) /*: {data: string, ...}*/
+  {
+    checkedAssets = {
+      /*: {|[string]: boolean|}*/
+    };
+    acceptedAssets = {
+      /*: {|[string]: boolean|}*/
+    };
+    assetsToAccept = [];
+    var data = /*: HMRMessage*/
+    JSON.parse(event.data);
+    if (data.type === 'update') {
+      // Remove error overlay if there is one
+      removeErrorOverlay();
+      let assets = data.assets.filter(asset => asset.envHash === HMR_ENV_HASH);
+      // Handle HMR Update
+      var handled = false;
+      assets.forEach(asset => {
+        var didAccept = asset.type === 'css' || asset.type === 'js' && hmrAcceptCheck(module.bundle.root, asset.id, asset.depsByBundle);
+        if (didAccept) {
+          handled = true;
+        }
+      });
+      if (handled) {
+        console.clear();
+        assets.forEach(function (asset) {
+          hmrApply(module.bundle.root, asset);
+        });
+        for (var i = 0; i < assetsToAccept.length; i++) {
+          var id = assetsToAccept[i][1];
+          if (!acceptedAssets[id]) {
+            hmrAcceptRun(assetsToAccept[i][0], id);
+          }
+        }
+      } else {
+        window.location.reload();
+      }
+    }
+    if (data.type === 'error') {
+      // Log parcel errors to console
+      for (let ansiDiagnostic of data.diagnostics.ansi) {
+        let stack = ansiDiagnostic.codeframe ? ansiDiagnostic.codeframe : ansiDiagnostic.stack;
+        console.error('🚨 [parcel]: ' + ansiDiagnostic.message + '\n' + stack + '\n\n' + ansiDiagnostic.hints.join('\n'));
+      }
+      // Render the fancy html overlay
+      removeErrorOverlay();
+      var overlay = createErrorOverlay(data.diagnostics.html);
+      // $FlowFixMe
+      document.body.appendChild(overlay);
+    }
+  };
+  ws.onerror = function (e) {
+    console.error(e.message);
+  };
+  ws.onclose = function (e) {
+    if (undefined !== 'test') {
+      console.warn('[parcel] 🚨 Connection to the HMR server was lost');
+    }
+  };
+}
+function removeErrorOverlay() {
+  var overlay = document.getElementById(OVERLAY_ID);
+  if (overlay) {
+    overlay.remove();
+    console.log('[parcel] ✨ Error resolved');
+  }
+}
+function createErrorOverlay(diagnostics) {
+  var overlay = document.createElement('div');
+  overlay.id = OVERLAY_ID;
+  let errorHTML = '<div style="background: black; opacity: 0.85; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; font-family: Menlo, Consolas, monospace; z-index: 9999;">';
+  for (let diagnostic of diagnostics) {
+    let stack = diagnostic.codeframe ? diagnostic.codeframe : diagnostic.stack;
+    errorHTML += `
+      <div>
+        <div style="font-size: 18px; font-weight: bold; margin-top: 20px;">
+          🚨 ${diagnostic.message}
+        </div>
+        <pre>
+          ${stack}
+        </pre>
+        <div>
+          ${diagnostic.hints.map(hint => '<div>' + hint + '</div>').join('')}
+        </div>
+      </div>
+    `;
+  }
+  errorHTML += '</div>';
+  overlay.innerHTML = errorHTML;
+  return overlay;
+}
+function getParents(bundle, id) /*: Array<[ParcelRequire, string]>*/
+{
+  var modules = bundle.modules;
+  if (!modules) {
+    return [];
+  }
+  var parents = [];
+  var k, d, dep;
+  for (k in modules) {
+    for (d in modules[k][1]) {
+      dep = modules[k][1][d];
+      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
+        parents.push([bundle, k]);
+      }
+    }
+  }
+  if (bundle.parent) {
+    parents = parents.concat(getParents(bundle.parent, id));
+  }
+  return parents;
+}
+function updateLink(link) {
+  var newLink = link.cloneNode();
+  newLink.onload = function () {
+    if (link.parentNode !== null) {
+      // $FlowFixMe
+      link.parentNode.removeChild(link);
+    }
+  };
+  newLink.setAttribute('href', // $FlowFixMe
+  link.getAttribute('href').split('?')[0] + '?' + Date.now());
+  // $FlowFixMe
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+var cssTimeout = null;
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      // $FlowFixMe[incompatible-type]
+      var href = /*: string*/
+      links[i].getAttribute('href');
+      var hostname = getHostname();
+      var servedFromHMRServer = hostname === 'localhost' ? new RegExp('^(https?:\\/\\/(0.0.0.0|127.0.0.1)|localhost):' + getPort()).test(href) : href.indexOf(hostname + ':' + getPort());
+      var absolute = (/^https?:\/\//i).test(href) && href.indexOf(window.location.origin) !== 0 && !servedFromHMRServer;
+      if (!absolute) {
+        updateLink(links[i]);
+      }
+    }
+    cssTimeout = null;
+  }, 50);
+}
+function hmrApply(bundle, /*: ParcelRequire*/
+asset) /*:  HMRAsset*/
+{
+  var modules = bundle.modules;
+  if (!modules) {
+    return;
+  }
+  if (asset.type === 'css') {
+    reloadCSS();
+    return;
+  }
+  let deps = asset.depsByBundle[bundle.HMR_BUNDLE_ID];
+  if (deps) {
+    var fn = new Function('require', 'module', 'exports', asset.output);
+    modules[asset.id] = [fn, deps];
+  } else if (bundle.parent) {
+    hmrApply(bundle.parent, asset);
+  }
+}
+function hmrAcceptCheck(bundle, /*: ParcelRequire*/
+id, /*: ParcelRequire*/
+/*: string*/
+depsByBundle) /*: ?{ [string]: { [string]: string } }*/
+{
+  var modules = bundle.modules;
+  if (!modules) {
+    return;
+  }
+  if (depsByBundle && !depsByBundle[bundle.HMR_BUNDLE_ID]) {
+    // If we reached the root bundle without finding where the asset should go,
+    // there's nothing to do. Mark as "accepted" so we don't reload the page.
+    if (!bundle.parent) {
+      return true;
+    }
+    return hmrAcceptCheck(bundle.parent, id, depsByBundle);
+  }
+  if (checkedAssets[id]) {
+    return;
+  }
+  checkedAssets[id] = true;
+  var cached = bundle.cache[id];
+  assetsToAccept.push([bundle, id]);
+  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
+    return true;
+  }
+  return getParents(module.bundle.root, id).some(function (v) {
+    return hmrAcceptCheck(v[0], v[1], null);
+  });
+}
+function hmrAcceptRun(bundle, /*: ParcelRequire*/
+id) /*: string*/
+{
+  var cached = bundle.cache[id];
+  bundle.hotData = {};
+  if (cached && cached.hot) {
+    cached.hot.data = bundle.hotData;
+  }
+  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
+    cached.hot._disposeCallbacks.forEach(function (cb) {
+      cb(bundle.hotData);
+    });
+  }
+  delete bundle.cache[id];
+  bundle(id);
+  cached = bundle.cache[id];
+  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
+    cached.hot._acceptCallbacks.forEach(function (cb) {
+      var assetsToAlsoAccept = cb(function () {
+        return getParents(module.bundle.root, id);
+      });
+      if (assetsToAlsoAccept && assetsToAccept.length) {
+        assetsToAccept.push.apply(assetsToAccept, assetsToAlsoAccept);
+      }
+    });
+  }
+  acceptedAssets[id] = true;
+}
+
+},{}],"4Y9Ui":[function(require,module,exports) {
+var rellax = new Rellax('.rellax');
+},{}]},["5O4C6","4Y9Ui"], "4Y9Ui", "parcelRequire29a8")
+
+</script>
+    <script src="/index.3fafb3e2.js"></script>
+</body>
+</html>
